@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 55px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+main > .row{
+    margin-left: 25%;
+    height: 190px;
+
+}
+
+.row > .item{
+width: 150px;
+height: 170px;
+background-color: yellow;
+display: inline-block;
+margin-top:20px;
+margin-right: 10px;
+border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
