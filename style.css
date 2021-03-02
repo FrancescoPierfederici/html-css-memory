@@ -19,18 +19,20 @@ body{
 }
 main{
     height:600px;
+    
 }
 
 main > .row{
     margin-left: 25%;
     height: 190px;
+    width: 900px;
 
 }
 
 .row > .item{
 width: 150px;
 height: 170px;
-display: inline-block;
+/* display: inline-block; */
 margin-top:20px;
 margin-right: 10px;
 
@@ -83,6 +85,7 @@ footer > .text-footer{
 
 .ball{
     position: relative;
+    float: left;
     
 }
 .overlay{
@@ -188,3 +191,19 @@ footer > .text-footer{
     border-radius: 10px;
     border: 1px solid grey;
 }
+/* 
+.float {
+    float: left;
+    
+    padding: 50px;
+  }
+   */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
